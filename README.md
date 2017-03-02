@@ -26,6 +26,7 @@ jobs:
   plan:
   - <some Resource or Task that outputs files>
   - put: <resource name>
+    params: { target_dir: <target_dir to upload to s3> }
 ```
 
 ## AWS Credentials
